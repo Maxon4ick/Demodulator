@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 7.0.0, 2022-07-11T02:11:18. -->
+<!-- Written by QtCreator 7.0.0, 2022-07-11T02:20:54. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -67,7 +67,71 @@
     <value type="bool" key="AutoTest.Framework.QtQuickTest">true</value>
     <value type="bool" key="AutoTest.Framework.QtTest">true</value>
    </valuemap>
-   <valuemap type="QVariantMap" key="AutoTest.CheckStates"/>
+   <valuemap type="QVariantMap" key="AutoTest.CheckStates">
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/Demodulator/test/vec_test.cpp:Creating">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/Demodulator/test/vec_test.cpp:DemodAM">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/Demodulator/test/vec_test.cpp:DemodFM">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/Demodulator/test/vec_test.cpp:VectorTests">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/FileManager/test/Manager_test.cpp:Convert">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/FileManager/test/Manager_test.cpp:VectorTests">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/FileManager/test/Manager_test.cpp:WorkingDouble">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/FileManager/test/Manager_test.cpp:WorkingFloat">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/FileManager/test/Manager_test.cpp:WorkingInt">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/FileManager/test/Manager_test.cpp:WorkingShort">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/Filter/test/Filter_test.cpp:CreateComFloat">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/Filter/test/Filter_test.cpp:CreateFloat">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/Filter/test/Filter_test.cpp:FiltComFloat">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/Filter/test/Filter_test.cpp:FiltFloat">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/Filter/test/Filter_test.cpp:FilterTests">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:BeqF">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:BeqT">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_AbsDouble">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_AbsFloat">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_AbsInt">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_AbsShort">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_AddDouble">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_AddFloat">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_AddInt">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_AddShort">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_ArgDouble">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_ArgFloat">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_ArgInt">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_ArgShort">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_ConjDouble">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_ConjFloat">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_ConjInt">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_ConjMpyDouble">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_ConjMpyFloat">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_ConjMpyInt">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_ConjMpyShort">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_ConjShort">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_DivDouble">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_DivFloat">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_DivInt">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_DivShort">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_MulDouble">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_MulFloat">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_MulInt">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_MulShort">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_SubDouble">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_SubFloat">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_SubInt">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Compl_SubShort">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:ComplexTests">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:CreatingDouble">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:CreatingFloat">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:CreatingInt">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:CreatingShort">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Creating_ConDouble">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Creating_ConFloat">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Creating_ConInt">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:Creating_ConShort">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:DivDO">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/complex/test/complex_test.cpp:EXUA">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/downsample/test/Sample_test.cpp:VectorTests">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/downsample/test/Sample_test.cpp:WorkingDo">Checked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/User/Documents/QT/Demodulator/sourse/libs/downsample/test/Sample_test.cpp:WorkingIn">Checked</value>
+   </valuemap>
    <value type="int" key="AutoTest.RunAfterBuild">0</value>
    <value type="bool" key="AutoTest.UseGlobal">true</value>
    <valuelist type="QVariantList" key="ClangCodeModel.CustomCommandLineKey">
