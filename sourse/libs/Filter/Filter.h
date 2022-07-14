@@ -1,6 +1,7 @@
 #ifndef FILTER_H
 #define FILTER_H
 #include <cstdlib>
+#include <vector>
 template<class t>
 class Filter
 {
@@ -14,9 +15,10 @@ int GetOrd(){
     return this->ord;
 }
 
-void FiltFilt(size_t size,t*in,  t *out)
+std::vector<t> FiltFilt(std::vector<t>&in)
 {
-    for (int i = 0; i<size; i++)
+    std::vector<t> out(in.size());
+    for (int i = 0; i<in.size(); i++)
     {
         for (int j = 0; j<ord; j++)
         {
@@ -30,6 +32,7 @@ void FiltFilt(size_t size,t*in,  t *out)
             }
         }
     }
+    return out;
 }
 private:
 int ord;

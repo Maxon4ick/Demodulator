@@ -44,28 +44,4 @@ TEST(FilterTests, CreateComFloat) {
     Filter<ComplexFloat> a(4);
     assert(a.GetOrd() == 4);
 }
-TEST(FilterTests, FiltFloat) {
-    std::vector<float> insig(10,1);
-    float *in = &insig[0];
-    std::vector<float> temp(10);
-    float *out = &temp[0];
-    FiltFilt(4,10,in,out);
-    std::vector<float> test(10,0);
-    float *ex = &test[0];
-    Filter<float> sko(4);
-    sko.FiltFilt(test.size(),in,ex);
-    EQUAL_VEC(out,ex,10);
-}
-TEST(FilterTests, FiltComFloat) {
-    ComplexFloat a(1,1);
-    std::vector<ComplexFloat> insig(10,a);
-    ComplexFloat *in = &insig[0];
-    std::vector<ComplexFloat> temp(10);
-    ComplexFloat *out = &temp[0];
-    FiltFilt(4,10,in,out);
-    std::vector<ComplexFloat> test(10);
-    ComplexFloat *ex = &test[0];
-    Filter<ComplexFloat> sko(4);
-    sko.FiltFilt(test.size(),in,ex);
-    EQUAL_VEC(out,ex,10);
-}
+

@@ -11,7 +11,11 @@ add_subdirectory(sourse/libs/FileManager/)
 add_subdirectory(sourse/libs/downsample/)
 add_subdirectory(sourse/libs/Demodulator/)
 add_subdirectory(sourse/libs/Filter/)
+add_subdirectory(sourse/libs/matrix/)
+add_subdirectory(sourse/libs/list/)
+add_subdirectory(sourse/libs/myVec/)
 set(CMAKE_CXX_STANDARD 17)
+
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 
