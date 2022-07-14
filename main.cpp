@@ -19,7 +19,7 @@ int main()
     float fsAm =12e3;
     Demodulate *demAm = new DemodulatorAM;
     std::vector<float> outAm = demAm->Demod(tempAm,fsAm);
-
+    FileManager::saveWav(12e3,"testAm.wav",outAm);
 
     /* Фм демодулятор*/
     std::vector<ComplexFloat> inFm = FileManager::readSignal<ComplexFloat>("file1EuropaPlus.bin");
@@ -29,8 +29,7 @@ int main()
     Filter<float> sko(4);
     std::vector<float> tu = sko.FiltFilt(tempFm);
     std::vector<float> outFm = downSample::downSample(tu,10);
-    FileManager::saveSignal(outFm,"testFm.bin");
-
+    FileManager::saveWav(54e3,"testFm.wav",outFm);
 
     return 0;
 }
